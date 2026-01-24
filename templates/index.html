@@ -1,1 +1,60 @@
-<h1> Welcome to home page </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Predictor - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #0d6efd, #6c63ff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .index-container {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 50px 40px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 600px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .index-container:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #0d6efd;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+            padding: 12px 25px;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #0b5ed7;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="index-container">
+        <h1>Welcome to Student Exam Predictor</h1>
+        <p>Predict your Maths exam score based on your reading, writing, and other performance indicators. Make informed decisions and track your academic growth!</p>
+        <a href="" class="btn btn-primary">Go to Prediction Form</a>
+    </div>
+</html>
