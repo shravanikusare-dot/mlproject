@@ -1,0 +1,6 @@
+try:
+    import catboost
+    print("CatBoost is installed!")
+    print("Version:", catboost.__version__)
+except ImportError:
+    print("CatBoost is NOT installed.")
